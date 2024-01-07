@@ -14,10 +14,10 @@ import (
 // my_team_diamond
 // my_team_pyramid
 //
-//go:embed other_team_jenghis.json
+//go:embed other_team_undreamt.json
 var homeTeamConfig []byte
 
-//go:embed my_team_pyramid.json
+//go:embed my_team_diamond.json
 var awayTeamConfig []byte
 
 func main() {
