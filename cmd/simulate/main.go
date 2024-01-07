@@ -9,10 +9,10 @@ import (
 	soccer "github.com/stein-f/oink-soccer-common"
 )
 
-//go:embed home_team.json
+//go:embed other_team_diamond.json
 var homeTeamConfig []byte
 
-//go:embed away_team.json
+//go:embed my_team_diamond.json
 var awayTeamConfig []byte
 
 func main() {
@@ -97,5 +97,6 @@ func loadConfig(config []byte) soccer.GameLineup {
 	if err := json.Unmarshal(config, &lineup); err != nil {
 		log.Fatal(err)
 	}
+	fmt.Printf("Lineup: ", lineup)
 	return lineup
 }

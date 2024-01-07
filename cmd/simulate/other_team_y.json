@@ -2,7 +2,7 @@
   "team": {
     "id": "1",
     "custom_name": "StrongTeam",
-    "formation": "The Diamond"
+    "formation": "The Y"
   },
   "players": [
     {
@@ -48,14 +48,14 @@
       "id": "4",
       "name": "4",
       "attributes": {
-        "goalkeeper_rating": 11,
-        "defense_rating": 75,
-        "speed_rating": 81,
-        "control_rating": 88,
-        "attack_rating": 71,
-        "position": "Midfield"
+        "goalkeeper_rating": 14,
+        "defense_rating": 22,
+        "speed_rating": 80,
+        "control_rating": 85,
+        "attack_rating": 93,
+        "position": "Attack"
       },
-      "position": "Midfield"
+      "position": "Attack"
     },
     {
       "id": "5",
