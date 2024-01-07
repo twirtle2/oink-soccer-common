@@ -9,10 +9,15 @@ import (
 	soccer "github.com/stein-f/oink-soccer-common"
 )
 
-//go:embed other_team_diamond.json
+// go run cmd/simulate/main.go
+// my_team_y
+// my_team_diamond
+// my_team_pyramid
+//
+//go:embed other_team_jenghis.json
 var homeTeamConfig []byte
 
-//go:embed my_team_diamond.json
+//go:embed my_team_pyramid.json
 var awayTeamConfig []byte
 
 func main() {
