@@ -14,10 +14,10 @@ import (
 // my_team_diamond
 // my_team_pyramid
 //
-//go:embed other_team_undreamt.json
+//go:embed other_team_sam.json
 var homeTeamConfig []byte
 
-//go:embed my_team_diamond.json
+//go:embed my_team_y.json
 var awayTeamConfig []byte
 
 func main() {
@@ -27,7 +27,13 @@ func main() {
 	scorerByPosition := make(map[soccer.PlayerPosition]int)
 
 	homeLineup := loadConfig(homeTeamConfig)
+	// homeLineup.ItemBoosts = []soccer.Boost{
+	// 	{BoostType: soccer.BoostTypeTeam, MinBoost: 1.01, MaxBoost: 1.05}, // apply a 1-5% boost to the team
+	// }
 	awayLineup := loadConfig(awayTeamConfig)
+	// awayLineup.ItemBoosts = []soccer.Boost{
+	// 	{BoostType: soccer.BoostTypeTeam, MinBoost: 1.03, MaxBoost: 1.07}, // apply a 3-7% boost to the team
+	// }
 
 	for i := 0; i < gameCount; i++ {
 		gameEvents, err := soccer.RunGame(homeLineup, awayLineup)
@@ -78,6 +84,11 @@ func main() {
 	fmt.Printf("Away Team chances/game: %f\n", awayTeamChancePerGame)
 	fmt.Printf("Draws: %d\n", draws)
 	fmt.Printf("Goals/game: %f\n", goalsPerGame)
+
+	homeWinPercent := float64(homeWins) / float64(awayWins) * 100
+	awayWinPercent := float64(awayWins) / float64(homeWins) * 100
+	fmt.Printf("Home Team Win Percentage: %f%% \n", homeWinPercent)
+	fmt.Printf("Away Team Win Percentage: %f%% \n", awayWinPercent)
 
 	attackerGoals := scorerByPosition[soccer.PlayerPositionAttack]
 	totalGoals := scorerByPosition[soccer.PlayerPositionAttack] + scorerByPosition[soccer.PlayerPositionMidfield] + scorerByPosition[soccer.PlayerPositionDefense] + scorerByPosition[soccer.PlayerPositionGoalkeeper]

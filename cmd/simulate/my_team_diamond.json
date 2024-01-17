@@ -9,7 +9,7 @@
       "id": "475",
       "attributes": {
         "goalkeeper_rating": 82,
-        "defense_rating": 12,
+        "defense_rating": 15,
         "speed_rating": 82,
         "control_rating": 29,
         "attack_rating": 22,
@@ -32,7 +32,7 @@
     {
       "id": "1083",
       "attributes": {
-        "goalkeeper_rating": 14,
+        "goalkeeper_rating": 15,
         "defense_rating": 70,
         "speed_rating": 50,
         "control_rating": 84,
@@ -44,7 +44,7 @@
     {
       "id": "51",
       "attributes": {
-        "goalkeeper_rating": 11,
+        "goalkeeper_rating": 15,
         "defense_rating": 67,
         "speed_rating": 88,
         "control_rating": 72,

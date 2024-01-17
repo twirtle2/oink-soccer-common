@@ -9,11 +9,11 @@
       "id": "1",
       "name": "1",
       "attributes": {
-        "goalkeeper_rating": 80,
-        "defense_rating": 8,
-        "speed_rating": 78,
-        "control_rating": 22,
-        "attack_rating": 7,
+        "goalkeeper_rating": 55,
+        "defense_rating": 55,
+        "speed_rating": 55,
+        "control_rating": 55,
+        "attack_rating": 55,
         "position": "Goalkeeper"
       },
       "position": "Goalkeeper"
@@ -22,11 +22,11 @@
       "id": "2",
       "name": "2",
       "attributes": {
-        "goalkeeper_rating": 10,
-        "defense_rating": 77,
-        "speed_rating": 74,
-        "control_rating": 60,
-        "attack_rating": 41,
+        "goalkeeper_rating": 55,
+        "defense_rating": 55,
+        "speed_rating": 55,
+        "control_rating": 55,
+        "attack_rating": 55,
         "position": "Defense"
       },
       "position": "Defense"
@@ -35,11 +35,11 @@
       "id": "3",
       "name": "3",
       "attributes": {
-        "goalkeeper_rating": 13,
-        "defense_rating": 46,
-        "speed_rating": 79,
-        "control_rating": 71,
-        "attack_rating": 67,
+        "goalkeeper_rating": 55,
+        "defense_rating": 55,
+        "speed_rating": 55,
+        "control_rating": 55,
+        "attack_rating": 55,
         "position": "Midfield"
       },
       "position": "Midfield"
@@ -48,11 +48,11 @@
       "id": "4",
       "name": "4",
       "attributes": {
-        "goalkeeper_rating": 15,
-        "defense_rating": 39,
-        "speed_rating": 66,
-        "control_rating": 80,
-        "attack_rating": 70,
+        "goalkeeper_rating": 55,
+        "defense_rating": 55,
+        "speed_rating": 55,
+        "control_rating": 55,
+        "attack_rating": 55,
         "position": "Midfield"
       },
       "position": "Midfield"
@@ -61,11 +61,11 @@
       "id": "5",
       "name": "5",
       "attributes": {
-        "goalkeeper_rating": 15,
-        "defense_rating": 34,
-        "speed_rating": 79,
-        "control_rating": 69,
-        "attack_rating": 83,
+        "goalkeeper_rating": 55,
+        "defense_rating": 55,
+        "speed_rating": 55,
+        "control_rating": 55,
+        "attack_rating": 55,
         "position": "Attack"
       },
       "position": "Attack"

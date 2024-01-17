@@ -1,0 +1,74 @@
+{
+  "team": {
+    "id": "1",
+    "custom_name": "StrongTeam",
+    "formation": "The Diamond"
+  },
+  "players": [
+    {
+      "id": "1",
+      "name": "2012",
+      "attributes": {
+        "goalkeeper_rating": 74,
+        "defense_rating": 11,
+        "speed_rating": 75,
+        "control_rating": 14,
+        "attack_rating": 15,
+        "position": "Goalkeeper"
+      },
+      "position": "Goalkeeper"
+    },
+    {
+      "id": "2",
+      "name": "1645",
+      "attributes": {
+        "goalkeeper_rating": 10,
+        "defense_rating": 63,
+        "speed_rating": 75,
+        "control_rating": 66,
+        "attack_rating": 67,
+        "position": "Defense"
+      },
+      "position": "Defense"
+    },
+    {
+      "id": "3",
+      "name": "1383",
+      "attributes": {
+        "goalkeeper_rating": 11,
+        "defense_rating": 44,
+        "speed_rating": 80,
+        "control_rating": 73,
+        "attack_rating": 72,
+        "position": "Midfield"
+      },
+      "position": "Midfield"
+    },
+    {
+      "id": "4",
+      "name": "0128",
+      "attributes": {
+        "goalkeeper_rating": 12,
+        "defense_rating": 43,
+        "speed_rating": 80,
+        "control_rating": 73,
+        "attack_rating": 72,
+        "position": "Midfield"
+      },
+      "position": "Midfield"
+    },
+    {
+      "id": "5",
+      "name": "moss",
+      "attributes": {
+        "goalkeeper_rating": 11,
+        "defense_rating": 35,
+        "speed_rating": 77,
+        "control_rating": 69,
+        "attack_rating": 84,
+        "position": "Attack"
+      },
+      "position": "Attack"
+    }
+  ]
+}
