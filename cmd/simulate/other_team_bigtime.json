@@ -1,0 +1,69 @@
+{
+  "team": {
+    "id": "2",
+    "custom_name": "WeakTeam",
+    "formation": "The Y"
+  },
+  "players": [
+    {
+      "id": "475",
+      "attributes": {
+        "goalkeeper_rating": 83,
+        "defense_rating": 26,
+        "speed_rating": 87,
+        "control_rating": 25,
+        "attack_rating": 23,
+        "position": "Goalkeeper"
+      },
+      "position": "Goalkeeper"
+    },
+    {
+      "id": "231",
+      "attributes": {
+        "goalkeeper_rating": 16,
+        "defense_rating": 71,
+        "speed_rating": 71,
+        "control_rating": 66,
+        "attack_rating": 56,
+        "position": "Defense"
+      },
+      "position": "Defense"
+    },
+    {
+      "id": "51",
+      "attributes": {
+        "goalkeeper_rating": 11,
+        "defense_rating": 36,
+        "speed_rating": 80,
+        "control_rating": 82,
+        "attack_rating": 81,
+        "position": "Midfield"
+      },
+      "position": "Midfield"
+    },
+    {
+      "id": "842",
+      "attributes": {
+        "goalkeeper_rating": 13,
+        "defense_rating": 39,
+        "speed_rating": 82,
+        "control_rating": 77,
+        "attack_rating": 84,
+        "position": "Attack"
+      },
+      "position": "Attack"
+    },
+    {
+      "id": "866",
+      "attributes": {
+        "goalkeeper_rating": 15,
+        "defense_rating": 34,
+        "speed_rating": 79,
+        "control_rating": 69,
+        "attack_rating": 83,
+        "position": "Attack"
+      },
+      "position": "Attack"
+    }
+  ]
+}

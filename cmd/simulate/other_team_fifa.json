@@ -1,0 +1,69 @@
+{
+  "team": {
+    "id": "2",
+    "custom_name": "WeakTeam",
+    "formation": "The Pyramid"
+  },
+  "players": [
+    {
+      "id": "0972",
+      "attributes": {
+        "goalkeeper_rating": 72,
+        "defense_rating": 28,
+        "speed_rating": 72,
+        "control_rating": 16,
+        "attack_rating": 6,
+        "position": "Goalkeeper"
+      },
+      "position": "Goalkeeper"
+    },
+    {
+      "id": "1153",
+      "attributes": {
+        "goalkeeper_rating": 10,
+        "defense_rating": 70,
+        "speed_rating": 72,
+        "control_rating": 64,
+        "attack_rating": 51,
+        "position": "Defense"
+      },
+      "position": "Defense"
+    },
+    {
+      "id": "2263",
+      "attributes": {
+        "goalkeeper_rating": 10,
+        "defense_rating": 71,
+        "speed_rating": 70,
+        "control_rating": 70,
+        "attack_rating": 59,
+        "position": "Defense"
+      },
+      "position": "Defense"
+    },
+    {
+      "id": "daisie",
+      "attributes": {
+        "goalkeeper_rating": 11,
+        "defense_rating": 34,
+        "speed_rating": 85,
+        "control_rating": 91,
+        "attack_rating": 92,
+        "position": "Midfield"
+      },
+      "position": "Midfield"
+    },
+    {
+      "id": "2314",
+      "attributes": {
+        "goalkeeper_rating": 9,
+        "defense_rating": 25,
+        "speed_rating": 76,
+        "control_rating": 56,
+        "attack_rating": 63,
+        "position": "Attack"
+      },
+      "position": "Attack"
+    }
+  ]
+}

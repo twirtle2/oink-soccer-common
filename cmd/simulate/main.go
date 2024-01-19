@@ -14,10 +14,10 @@ import (
 // my_team_diamond
 // my_team_pyramid
 //
-//go:embed other_team_sam.json
+//go:embed other_team_saturn.json
 var homeTeamConfig []byte
 
-//go:embed my_team_y.json
+//go:embed my_team_diamond.json
 var awayTeamConfig []byte
 
 func main() {
@@ -85,10 +85,12 @@ func main() {
 	fmt.Printf("Draws: %d\n", draws)
 	fmt.Printf("Goals/game: %f\n", goalsPerGame)
 
-	homeWinPercent := float64(homeWins) / float64(awayWins) * 100
-	awayWinPercent := float64(awayWins) / float64(homeWins) * 100
+	homeWinPercent := float64(homeWins) / float64(gameCount) * 100
+	awayWinPercent := float64(awayWins) / float64(gameCount) * 100
+	drawPercent := float64(draws) / float64(gameCount) * 100
 	fmt.Printf("Home Team Win Percentage: %f%% \n", homeWinPercent)
 	fmt.Printf("Away Team Win Percentage: %f%% \n", awayWinPercent)
+	fmt.Printf("Draw Percentage: %f%% \n", drawPercent)
 
 	attackerGoals := scorerByPosition[soccer.PlayerPositionAttack]
 	totalGoals := scorerByPosition[soccer.PlayerPositionAttack] + scorerByPosition[soccer.PlayerPositionMidfield] + scorerByPosition[soccer.PlayerPositionDefense] + scorerByPosition[soccer.PlayerPositionGoalkeeper]
